@@ -2,7 +2,7 @@
   <h1>Hey, I'm Dinakaran V 👋</h1>
   <p><strong>Systems & Data Infrastructure Engineer · Core at Ostrium Labs</strong></p>
   <p>
-    <em>Building unified retrieval engines, autonomous agent protocols, and high-throughput streaming pipelines.</em>
+    <em>From cosmic-ray muon telescope instrumentation to distributed storage engines, real-time streaming & AI observability.</em>
   </p>
 
   <p>
@@ -17,7 +17,7 @@
 ### ⚡ What I'm Building & Shipping
 
 - 🦀 **[Loams](https://github.com/ostrium-labs/loams)** (`Rust`, `Lance`, `Tantivy`, `DataFusion`, `Arrow Flight SQL`)  
-  Unified hybrid retrieval and storage engine that keeps vectors, full-text (BM25), graphs, and relational tables on your own object-storage bucket (S3/GCS/Azure/RustFS). Native wire-compatibility with **Qdrant**, **Elasticsearch**, and **Arrow Flight SQL**. Built to replace the fragile multi-cluster sprawl of running Elasticsearch + Qdrant + Kafka + separate workflow engines.
+  Unified hybrid retrieval and storage engine keeping vectors, full-text (BM25), graphs, and relational tables on your own object-storage bucket (S3/GCS/Azure/RustFS). Drop-in wire compatibility with **Qdrant**, **Elasticsearch**, and **Arrow Flight SQL**. Built to eliminate the multi-cluster sprawl of running Elasticsearch + Qdrant + Kafka + separate workflow engines.
 
 - 🤖 **[agent-ui](https://github.com/dina-kar/agent-ui)** (`TypeScript`, `React 19`, `Angular`, `Nx`)  
   Universal, backend-agnostic agent canvas SDK. Normalized event streams, human-in-the-loop approval gates, tool execution timelines, and workspace panels for AI coding agents.
@@ -49,7 +49,11 @@
 ├─────────────────────────────────┤
 │    ORCHESTRATION & RESILIENCE   │  Temporal (Durable Executions) · Apache Airflow · Kestra · BullMQ
 ├─────────────────────────────────┤
+│   OBSERVABILITY & AI EVALS      │  Self-Hosted Langfuse · OpenTelemetry (OTel) · SigNoz · Retrieval Evals
+├─────────────────────────────────┤
 │    AUTONOMOUS AGENT RUNTIMES    │  Headless Agent Canvases · Mastra · LangGraph · Event Reducers · Approval Gates
+├─────────────────────────────────┤
+│   LOW-LEVEL & INSTRUMENTATION   │  C · Python · AMD Xilinx FPGAs · FTDI Hardware Drivers · LabVIEW
 └─────────────────────────────────┘
 ```
 
@@ -58,37 +62,52 @@
 ### 🔬 Deep Dives & Engineering Interests
 
 - **Storage & Zero-Copy Retrieval**: Architecting log-as-spine storage primitives, decoupled compute/storage tiers on object buckets, and DataFusion-based vector + BM25 plan optimization.
-- **Unified Data Ingestion**: Designing resilient ingestion pipelines using Airbyte, Singer specifications, and Apache Camel enterprise integration patterns (EIP).
-- **Durable Execution & Event Streams**: Building deterministic, crash-resilient workflows using Temporal, coupled with sub-millisecond event streaming on Redpanda and Kafka.
-- **Real-Time Data & AdTech Systems**: High-throughput SSP/DSP bidding engines, Customer Data Platforms (CDMP), and event-driven low-latency aggregation engines.
+- **AI Observability & Rigorous Evals**: Operating self-hosted **Langfuse** for prompt lifecycle management, LLM tracing, and offline/online evals on hybrid search retrieval accuracy; instrumenting distributed systems with **OpenTelemetry (OTel)** and **SigNoz**.
+- **Unified Ingestion & Integration**: Designing resilient ingestion pipelines with **Airbyte**, **Singer specifications**, and **Apache Camel** enterprise integration patterns (EIP).
+- **Durable Workflows & Streaming**: Building deterministic, crash-resilient workflows using **Temporal**, paired with sub-millisecond event streaming via **Redpanda** and **Kafka**.
+- **Physical Instrumentation & Hardware**: Interfacing high-frequency sensors, writing low-level drivers in C/Python for FTDI chips, and synthesizing digital signal processing algorithms on AMD Xilinx FPGAs.
 
 ---
 
-### 🏆 Key Milestones & Background
+### 🏆 Key Milestones & Scientific Background
 
-- 🚀 **Engine Internals**: Merged **1,000+ PRs** across distributed engine storage primitives, metastores, log engines, and wire protocols.
-- 📦 **Package Author**: Maintainer of active developer tooling and streaming UI SDKs published on **npm**.
-- 🤖 **Robotics Competitor**: Participated in **e-Yantra Robotics Competition** (IIT Bombay).
-- 🎓 **Education**: Alum of **Government College of Technology (GCT Coimbatore)** — built the official campus placement portal ([gct-placements](https://github.com/dina-kar/gct-placements)).
-- 🎮 **Gamified Systems**: Built [Super Pixel Odyssey](https://github.com/dina-kar/super-pixel), a 2.5D game in Phaser.js gamifying real-world digital advertising auction models and pricing mechanics.
+- 🔭 **Research Intern @ TIFR (Tata Institute of Fundamental Research, Ooty)**  
+  Worked at the Cosmic Ray Laboratory on **GRAPES-3** (the world's largest and most sensitive cosmic-ray muon telescope tracking solar storms and thundercloud electrical potentials). Engineered low-level data acquisition routines in **C & Python**, interfaced high-speed **FTDI USB/FIFO chips**, and designed signal-processing algorithms for **AMD Xilinx FPGAs**.
+
+- 🎓 **Education & Campus Systems**  
+  B.E. in **Electronics and Instrumentation Engineering (EIE)** from **Government College of Technology (GCT Coimbatore)**. Architected and deployed the official campus placement management system ([gct-placements](https://github.com/dina-kar/gct-placements)).
+
+- 🚀 **Engine Internals**  
+  Merged **1,000+ PRs** across distributed engine storage primitives, metastores, log engines, and wire protocols for **Loams**.
+
+- 📦 **NPM Package Author**  
+  Maintainer and publisher of developer tooling and streaming markdown SDKs on **npm** (`ngx-streamdown`).
+
+- 🤖 **Robotics Competitor**  
+  Participated in the national **e-Yantra Robotics Competition** (IIT Bombay).
+
+- 🎮 **Gamified Systems**  
+  Built [Super Pixel Odyssey](https://github.com/dina-kar/super-pixel), a 2.5D game in Phaser.js gamifying real-world digital advertising auction models and pricing mechanics.
 
 ---
 
 ### 💻 Stack & Tooling
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,python,go,cpp,kafka,spark,postgres,clickhouse,nextjs,react,angular,nodejs,nestjs,docker,kubernetes" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=rust,c,cpp,python,ts,go,kafka,spark,postgres,clickhouse,nextjs,react,angular,nodejs,nestjs,docker,kubernetes" alt="Tech Stack" />
 </p>
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Languages** | Rust, TypeScript, Python, Go, Java, C++, SQL |
+| **Languages** | Rust, C, C++, Python, TypeScript, Go, Java, SQL, Verilog/VHDL |
 | **Storage & Engines** | Lance, Tantivy, DataFusion, Arrow Flight, ClickHouse, TiKV/TiDB, Neon Postgres, Redis |
-| **Search & Vectors** | Elasticsearch, Qdrant, LanceDB, HNSW, BM25 |
+| **Search & Vectors** | Elasticsearch, Qdrant, LanceDB, HNSW, BM25, Reciprocal Rank Fusion (RRF) |
 | **Streaming & Compute**| Redpanda, Apache Kafka, Apache Spark, Apache Flink |
-| **ETL & Ingestion** | Airbyte, Singer Taps, Apache Camel, CDC Pipelines |
-| **Orchestration** | Temporal, Apache Airflow, Kestra, BullMQ |
-| **App & UI Runtimes** | React 19, Next.js 15, Angular Signals, NestJS, FastAPI, Tailwind v4 |
+| **Integration & ETL** | Airbyte, Singer Taps, Apache Camel, CDC Pipelines |
+| **Orchestration** | Temporal (Durable Execution), Apache Airflow, Kestra, BullMQ |
+| **Observability & Evals**| Self-Hosted Langfuse, OpenTelemetry (OTel), SigNoz, Prometheus |
+| **Hardware & Embedded**| AMD Xilinx FPGA, FTDI Chip Drivers, LabVIEW, Digital Circuit Modeling |
+| **App & UI Frameworks** | React 19, Next.js 15, Angular Signals, NestJS, FastAPI, Tailwind v4 |
 
 ---
 
