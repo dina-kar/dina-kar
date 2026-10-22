@@ -19,6 +19,9 @@
 - 🦀 **[Loams](https://github.com/ostrium-labs/loams)** (`Rust`, `Lance`, `Tantivy`, `DataFusion`, `Arrow Flight SQL`)  
   Unified hybrid retrieval and storage engine keeping vectors, full-text (BM25), graphs, and relational tables on your own object-storage bucket (S3/GCS/Azure/RustFS). Drop-in wire compatibility with **Qdrant**, **Elasticsearch**, and **Arrow Flight SQL**. Built to eliminate the multi-cluster sprawl of running Elasticsearch + Qdrant + Kafka + separate workflow engines.
 
+- ⚡ **[qrc](https://github.com/ostrium-labs/qrc)** (`Rust`, `Cranelift`, `Compiler Tooling`, `CI`)  
+  Fastest possible Rust debug builds. An Ostrium Labs research initiative establishing a two-lane architecture: a Cranelift-powered fast lane for rapid test/CI loops, while preserving stock `rustc` + LLVM for production release builds.
+
 - 🤖 **[agent-ui](https://github.com/dina-kar/agent-ui)** (`TypeScript`, `React 19`, `Angular`, `Nx`)  
   Universal, backend-agnostic agent canvas SDK. Normalized event streams, human-in-the-loop approval gates, tool execution timelines, and workspace panels for AI coding agents.
 
