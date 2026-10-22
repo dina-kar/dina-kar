@@ -49,11 +49,11 @@
 ├─────────────────────────────────┤
 │    ORCHESTRATION & RESILIENCE   │  Temporal (Durable Executions) · Apache Airflow · Kestra · BullMQ
 ├─────────────────────────────────┤
-│   OBSERVABILITY & AI EVALS      │  Self-Hosted Langfuse · OpenTelemetry (OTel) · SigNoz · Retrieval Evals
+│   OBSERVABILITY & AI EVALS      │  Self-Hosted Langfuse · OpenTelemetry (OTel) · OpenObserve · Retrieval Evals
 ├─────────────────────────────────┤
 │    AUTONOMOUS AGENT RUNTIMES    │  Headless Agent Canvases · Mastra · LangGraph · Event Reducers · Approval Gates
 ├─────────────────────────────────┤
-│   LOW-LEVEL & INSTRUMENTATION   │  C · Python · AMD Xilinx FPGAs · FTDI Hardware Drivers · LabVIEW
+│   LOW-LEVEL & INSTRUMENTATION   │  C · Python · AMD Xilinx FPGAs (Vivado) · FTDI Hardware Drivers · LabVIEW
 └─────────────────────────────────┘
 ```
 
@@ -62,17 +62,17 @@
 ### 🔬 Deep Dives & Engineering Interests
 
 - **Storage & Zero-Copy Retrieval**: Architecting log-as-spine storage primitives, decoupled compute/storage tiers on object buckets, and DataFusion-based vector + BM25 plan optimization.
-- **AI Observability & Rigorous Evals**: Operating self-hosted **Langfuse** for prompt lifecycle management, LLM tracing, and offline/online evals on hybrid search retrieval accuracy; instrumenting distributed systems with **OpenTelemetry (OTel)** and **SigNoz**.
+- **AI Observability & Rigorous Evals**: Operating self-hosted **Langfuse** for prompt lifecycle management, LLM tracing, and offline/online evals on hybrid search retrieval accuracy; instrumenting distributed systems with **OpenTelemetry (OTel)** and **OpenObserve**.
 - **Unified Ingestion & Integration**: Designing resilient ingestion pipelines with **Airbyte**, **Singer specifications**, and **Apache Camel** enterprise integration patterns (EIP).
 - **Durable Workflows & Streaming**: Building deterministic, crash-resilient workflows using **Temporal**, paired with sub-millisecond event streaming via **Redpanda** and **Kafka**.
-- **Physical Instrumentation & Hardware**: Interfacing high-frequency sensors, writing low-level drivers in C/Python for FTDI chips, and synthesizing digital signal processing algorithms on AMD Xilinx FPGAs.
+- **Physical Instrumentation & Hardware**: Interfacing high-frequency sensors, writing low-level drivers in C/Python for FTDI chips, and synthesizing digital signal processing algorithms on AMD Xilinx FPGAs (Vivado).
 
 ---
 
 ### 🏆 Key Milestones & Scientific Background
 
 - 🔭 **Research Intern @ TIFR (Tata Institute of Fundamental Research, Ooty)**  
-  Worked at the Cosmic Ray Laboratory on **GRAPES-3** (the world's largest and most sensitive cosmic-ray muon telescope tracking solar storms and thundercloud electrical potentials). Engineered low-level data acquisition routines in **C & Python**, interfaced high-speed **FTDI USB/FIFO chips**, and designed signal-processing algorithms for **AMD Xilinx FPGAs**.
+  Worked at the Cosmic Ray Laboratory on **GRAPES-3** (the world's largest and most sensitive cosmic-ray muon telescope tracking solar storms and thundercloud electrical potentials). Engineered low-level data acquisition routines in **C & Python**, interfaced high-speed **FTDI USB/FIFO chips**, and designed signal-processing algorithms for **AMD Xilinx FPGAs (Vivado)**.
 
 - 🎓 **Education & Campus Systems**  
   B.E. in **Electronics and Instrumentation Engineering (EIE)** from **Government College of Technology (GCT Coimbatore)**. Architected and deployed the official campus placement management system ([gct-placements](https://github.com/dina-kar/gct-placements)).
@@ -105,8 +105,8 @@
 | **Streaming & Compute**| Redpanda, Apache Kafka, Apache Spark, Apache Flink |
 | **Integration & ETL** | Airbyte, Singer Taps, Apache Camel, CDC Pipelines |
 | **Orchestration** | Temporal (Durable Execution), Apache Airflow, Kestra, BullMQ |
-| **Observability & Evals**| Self-Hosted Langfuse, OpenTelemetry (OTel), SigNoz, Prometheus |
-| **Hardware & Embedded**| AMD Xilinx FPGA, FTDI Chip Drivers, LabVIEW, Digital Circuit Modeling |
+| **Observability & Evals**| Self-Hosted Langfuse, OpenTelemetry (OTel), OpenObserve, Prometheus |
+| **Hardware & Embedded**| AMD Xilinx Vivado, FPGA, FTDI Chip Drivers, LabVIEW, Digital Circuit Modeling |
 | **App & UI Frameworks** | React 19, Next.js 15, Angular Signals, NestJS, FastAPI, Tailwind v4 |
 
 ---
