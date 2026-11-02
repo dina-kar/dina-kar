@@ -8,7 +8,6 @@
   <p>
     <a href="https://github.com/dina-kar"><img src="https://img.shields.io/github/followers/dina-kar?label=Followers&style=flat-square&color=238636" alt="Followers" /></a>
     <a href="https://loams.dev"><img src="https://img.shields.io/badge/Loams-loams.dev-6b4f2a?style=flat-square" alt="loams.dev" /></a>
-    <a href="https://www.npmjs.com/~dina-kar"><img src="https://img.shields.io/badge/npm-packages-cb3837?style=flat-square&logo=npm" alt="npm" /></a>
     <a href="mailto:dinakaranvijayakumar@outlook.com"><img src="https://img.shields.io/badge/Email-dinakaranvijayakumar%40outlook.com-blue?style=flat-square&logo=microsoftoutlook" alt="Email" /></a>
   </p>
 </div>
@@ -25,10 +24,6 @@
 
 - 🤖 **[agent-ui](https://github.com/dina-kar/agent-ui)** (`TypeScript`, `React 19`, `Angular`, `Nx`)  
   Universal, backend-agnostic agent canvas SDK. Normalized event streams, human-in-the-loop approval gates, tool execution timelines, and workspace panels for AI coding agents.
-
-- 📦 **[ngx-streamdown](https://github.com/dina-kar/ngx-streamdown)** (`Angular`, `Signals`, `npm`)  
-  Streaming markdown renderer for Angular AI applications with real-time incomplete token syntax healing and signal reactivity.  
-  👉 `npm install ngx-streamdown`
 
 - 🛠️ **[A3 Stack](https://github.com/dina-kar/A3-Stack)** (`Next.js 15`, `NestJS`, `Mastra`, `Temporal`, `Kafka`)  
   Production-ready monorepo scaffolding tool for autonomous AI agents, distributed workflows, and background job orchestration.  
@@ -83,9 +78,6 @@
 
 - 🚀 **Engine Internals**  
   Merged **1,500+ PRs** across Ostrium Labs repos (1,290+ in **Loams**): storage primitives, metastores, log engines and wire protocols.
-
-- 📦 **NPM Package Author**  
-  Maintainer and publisher of developer tooling and streaming markdown SDKs on **npm** (`ngx-streamdown`).
 
 - 🤖 **Robotics Competitor**  
   Participated in the national **e-Yantra Robotics Competition** (IIT Bombay).
