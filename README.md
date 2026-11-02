@@ -26,8 +26,7 @@
   Universal, backend-agnostic agent canvas SDK. Normalized event streams, human-in-the-loop approval gates, tool execution timelines, and workspace panels for AI coding agents.
 
 - 🛠️ **[A3 Stack](https://github.com/dina-kar/A3-Stack)** (`Next.js 15`, `NestJS`, `Mastra`, `Temporal`, `Kafka`)  
-  Production-ready monorepo scaffolding tool for autonomous AI agents, distributed workflows, and background job orchestration.  
-  👉 `npx create-a3-stack`
+  Production-ready monorepo scaffolding tool for autonomous AI agents, distributed workflows, and background job orchestration.
 
 - 🎨 **[BrandByte](https://github.com/dina-kar/brandbyte)** & **[BReX](https://github.com/dina-kar/brex)**  
   Production AI apps: automated ad creative generation platform powered by FLUX.1 + LLaMA 3.3, and a privacy-first clinical blood report reasoning engine using Google Gemini.
@@ -90,7 +89,7 @@
 ### 💻 Stack & Tooling
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,c,cpp,python,ts,go,kafka,spark,postgres,clickhouse,nextjs,react,angular,nodejs,nestjs,docker,kubernetes" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=rust,c,cpp,python,ts,go,java,kafka,postgres,redis,nextjs,react,angular,nodejs,nestjs,tailwind,docker,kubernetes" alt="Tech Stack" />
 </p>
 
 | Category | Tools & Technologies |
