@@ -7,6 +7,7 @@
 
   <p>
     <a href="https://github.com/dina-kar"><img src="https://img.shields.io/github/followers/dina-kar?label=Followers&style=flat-square&color=238636" alt="Followers" /></a>
+    <a href="https://loams.dev"><img src="https://img.shields.io/badge/Loams-loams.dev-6b4f2a?style=flat-square" alt="loams.dev" /></a>
     <a href="https://www.npmjs.com/~dina-kar"><img src="https://img.shields.io/badge/npm-packages-cb3837?style=flat-square&logo=npm" alt="npm" /></a>
     <a href="mailto:dinakaranvijayakumar@outlook.com"><img src="https://img.shields.io/badge/Email-dinakaranvijayakumar%40outlook.com-blue?style=flat-square&logo=microsoftoutlook" alt="Email" /></a>
   </p>
@@ -17,7 +18,7 @@
 ### ⚡ What I'm Building & Shipping
 
 - 🦀 **[Loams](https://github.com/ostrium-labs/loams)** (`Rust`, `Lance`, `Tantivy`, `DataFusion`, `Arrow Flight SQL`)  
-  Unified hybrid retrieval and storage engine keeping vectors, full-text (BM25), graphs, and relational tables on your own object-storage bucket (S3/GCS/Azure/RustFS). Drop-in wire compatibility with **Qdrant**, **Elasticsearch**, and **Arrow Flight SQL**. Built to eliminate the multi-cluster sprawl of running Elasticsearch + Qdrant + Kafka + separate workflow engines.
+  One bucket, every index: an open-source (Apache-2.0), AI-native data platform in Rust. Hybrid retrieval (vectors + BM25) on your own object storage, plus reactive data (Live), graph, SQL, Postgres and durable agent runs. In preview. 🌐 [loams.dev](https://loams.dev)
 
 - ⚡ **[qrc](https://github.com/ostrium-labs/qrc)** (`Rust`, `Cranelift`, `Compiler Tooling`, `CI`)  
   Fastest possible Rust debug builds. An Ostrium Labs research initiative establishing a two-lane architecture: a Cranelift-powered fast lane for rapid test/CI loops, while preserving stock `rustc` + LLVM for production release builds.
@@ -81,7 +82,7 @@
   B.E. in **Electronics and Instrumentation Engineering (EIE)** from **Government College of Technology (GCT Coimbatore)**. Architected and deployed the official campus placement management system ([gct-placements](https://github.com/dina-kar/gct-placements)).
 
 - 🚀 **Engine Internals**  
-  Merged **1,000+ PRs** across distributed engine storage primitives, metastores, log engines, and wire protocols for **Loams**.
+  Merged **1,500+ PRs** across Ostrium Labs repos (1,290+ in **Loams**): storage primitives, metastores, log engines and wire protocols.
 
 - 📦 **NPM Package Author**  
   Maintainer and publisher of developer tooling and streaming markdown SDKs on **npm** (`ngx-streamdown`).
@@ -117,12 +118,7 @@
 ### 📊 GitHub Activity & Insights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dina-kar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Dinakaran's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dina-kar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="165" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dina-kar&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=dina-kar&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
 </div>
 
 ---
